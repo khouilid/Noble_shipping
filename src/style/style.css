@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    height: 85px;
+}
+nav{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.list{
+    margin-left: 50%;
+
+}
+.slid-hight{
+    height: 800px;
+    object-fit: cover;
+}
+.shad{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.479) !important;
+    width: 100%;
+    height: 800px;
+    top: 0;
+}
+.shad div h1{
+    font-weight: 900;
+    font-size: 70px;
+    
+}
+.shad div{
+    width: fit-content;
+}
+.title h1{
+    color: #10182F !important;
+    font-weight: 800;
+    border-bottom: 10px solid #14BF5F;
+    width: fit-content;
+}
+@media only screen and (max-width:900px){
+    .shad div{
+        width: fit-content !important;
+    }
+    .shad div h1{
+        font-weight: 900;
+        font-size: 50px;
+        
+    }
+    .para_1{
+        width: 90% !important;
+    }
+
+}
+.para_1 h5{
+    font-size: larger;
+    font-weight: 700;
+    line-height: 30px;
+}
+.para_1{
+    width: 40%;
+    padding: 60px !important;
+}
+.services_section{
+    background-image: url('../img/ruben-bagues-wplxPRCF7gA-unsplash (1).jpg');
+    height: auto;
+    /* object-fit: cover; */
+}
+.services_section_shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.664) !important;
+}
+.services_section_shadow h1{
+    border-bottom: 5px solid #14BF5F;
+    font-weight: 700;
+    width: fit-content;
+    margin: auto;
+}
+.services p{
+   font-size: larger;
+   font-weight: 600;
+}
+.services p i{
+    color: #14BF5F;
+    font-size: xx-large;
+    
+}
+.haight_2{
+    height: 400px !important;
+    overflow: hidden;
+}
+.haight_2 img{
+    object-fit: cover;
+    
+}
+.branch_list li{
+    margin-top: 20px;
+    list-style: none;
+    font-size: large;
+    font-weight: 700;
+}
+.branch_list_title h1{
+    border-bottom: 5px solid #14BF5F;
+    font-weight: 700;
+    width: fit-content;
+    margin: auto;
+}
