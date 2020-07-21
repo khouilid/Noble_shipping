@@ -7,6 +7,9 @@ body{
 .logo{
     height: 85px;
 }
+.collapse ul li a{
+    font-weight: 800;
+}
 nav{
     display: flex !important;
     justify-content: space-between !important;
@@ -66,6 +69,7 @@ nav{
 .services_section{
     background-image: url('../img/ruben-bagues-wplxPRCF7gA-unsplash (1).jpg');
     height: auto;
+    
     /* object-fit: cover; */
 }
 .services_section_shadow {
@@ -85,11 +89,11 @@ nav{
 }
 .services p i{
     color: #14BF5F;
-    font-size: xx-large;
+    font-size: x-large;
     
 }
 .haight_2{
-    height: 400px !important;
+    /* height: 600px !important; */
     overflow: hidden;
 }
 .haight_2 img{
@@ -97,7 +101,7 @@ nav{
     
 }
 .branch_list li{
-    margin-top: 20px;
+    margin: 20px;
     list-style: none;
     font-size: large;
     font-weight: 700;
@@ -107,4 +111,91 @@ nav{
     font-weight: 700;
     width: fit-content;
     margin: auto;
+}
+.branch_list li i{
+    font-size: larger;
+    color: #14BF5F;
+}
+.footer_contact h6{
+    font-weight: 700;
+}
+.footer_contact h6 i{
+    font-size: larger;
+}
+
+
+/* contact us  */
+
+
+.bg{
+    background-image: url('../img/tobias-a-muller-fusq9KwkSF4-unsplash.jpg');
+    height: 715px;
+    object-fit: cover;
+}
+@media only screen and (max-width:1000px){
+    .bg{
+        height: auto !important;
+    }
+    .bg-shadow{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .title-contact{
+        width: 100% !important;
+    }
+    .inputs{
+        width: 100% !important;
+    }
+    .title-contact p{
+        width: 80% !important;
+    }
+}
+.bg-shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.74) !important;
+}
+.title-contact h1{
+    font-size: xx-large;
+    border-bottom: 5px solid #14BF5F;
+    font-weight: 800;
+    width: fit-content;
+    margin: auto;
+
+}
+.title-contact p{
+    font-weight: 700;
+    font-size: xx-large;
+}
+input,textarea{
+    background: none;
+    border-bottom: 5px solid #14BF5F;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+/* about us */
+
+
+.About_pic img{
+    height: 500px;
+    object-fit: cover;
+}
+.About_para p{
+    font-size: medium;
+    font-weight: 800;
+    line-height: 3em;
+}
+.About_para, .About_team{
+    height: fit-content !important;
+}
+.About_team h4{
+    font-size: x-large;
+    font-weight: 700;
+}
+.About_team h6{
+    font-size: large;
+    font-weight: 700;
 }
