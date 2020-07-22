@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+button:focus, input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
 
 .logo{
     height: 85px;
@@ -190,6 +193,8 @@ input,textarea{
 }
 .About_para, .About_team{
     height: fit-content !important;
+    border-left: 5px solid   #14BF5F;
+    border-right: 5px solid   #14BF5F;
 }
 .About_team h4{
     font-size: x-large;
@@ -199,3 +204,17 @@ input,textarea{
     font-size: large;
     font-weight: 700;
 }
+.About_pic_t img{
+    height: 400px;
+    object-fit: cover;
+
+}
+iframe{
+    width: 50%;
+}
+@media only screen and (max-width:800px){
+    iframe{
+        width: 100%;
+    }
+}
+ 
