@@ -9,9 +9,16 @@ button:focus, input:focus, textarea:focus, select:focus {
 
 .logo{
     height: 85px;
+    /* margin-left: 20% !important; */
 }
 .collapse ul li a{
     font-weight: 800;
+}
+.m-top{
+    margin-top: 120px !important;
+}
+.bg-A{
+    background-color: #2A5378;
 }
 nav{
     display: flex !important;
@@ -132,7 +139,7 @@ nav{
 
 .bg{
     background-image: url('../img/tobias-a-muller-fusq9KwkSF4-unsplash.jpg');
-    height: 715px;
+    height: 745px;
     object-fit: cover;
 }
 @media only screen and (max-width:1000px){
@@ -209,12 +216,5 @@ input,textarea{
     object-fit: cover;
 
 }
-iframe{
-    width: 50%;
-}
-@media only screen and (max-width:800px){
-    iframe{
-        width: 100%;
-    }
-}
+
  

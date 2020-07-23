@@ -1,3 +1,4 @@
+// this two var containe services inside html <p></p>
 let serv_less = `<p><i class="far fa-check-circle mr-3"></i>Prompt submission of information to port authorities, customers and all other involved parties;</p>
 <p><i class="far fa-check-circle mr-3"></i>Establishment of the pro-forma disbursements account covering port dues, expenses and services fees (pro-forma D/A);</p>
 <p><i class="far fa-check-circle mr-3"></i>Timely reservation of available berths;</p>
@@ -25,11 +26,8 @@ let serv_more = `<p><i class="far fa-check-circle mr-3"></i>Prompt submission of
 <p><i class="far fa-check-circle mr-3"></i>Communication assistance;</p>`
 
 let wish_one = 0;
-
 let services = document.getElementById("servs");
-
-
-
+// this function controle show all services or hide some of them
 function show_serv() {
     if(wish_one == 0){
 

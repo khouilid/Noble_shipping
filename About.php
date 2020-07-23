@@ -11,48 +11,51 @@
     
     </head>
 <body>
-    <nav class="container navbar navbar-expand-lg navbar-light bg-white ">
+<div class="position-fixed bg-white fixed-top">
+       <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
          
-        <div>
-            <a class="navbar-brand" href="index.html"><img class='logo' src="src/img/logo.png" alt="logo"></a>
-        </div>
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-        </button>
+         <div>
+             <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
+         </div>
+         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+         </button>
+ 
+ 
+ 
+         <div class="collapse list text-center navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav">
+               <li class="nav-item  ">
+                 <a class="nav-link " href="index.php">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="index.php #serv">Our services</a>
+               </li>
+               <li class="nav-item active">
+                 <a class="nav-link" href="About.php">About us</a>
+               </li>
+               <li class="nav-item ">
+                 <a class="nav-link" href="Contact.php">Contact us</a>
+               </li>
+             </ul>
+         </div>
+ 
+       </nav>
+</div>
 
 
 
-        <div class="collapse list text-center navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html #serv">Our services</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="About.html">About us</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="Contact.html">Contact us</a>
-              </li>
-            </ul>
-        </div>
-
-      </nav>
 
 
-
-
-
-      <section>
-          <div class=" title-contact"><h1>Who we are ?</h1></div>
+      <section class='m-top'>
+          <div class=" title-contact"><h1>Who are we ?</h1></div>
 
 
 
           <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
               <div class="bg-light w-100 w-lg-100 m-4 p-4 About_para text-secondary h-auto rounded">
-                  <p><strong><span class="text-success">Noble Shipping</span></strong> is backed by a strong force of devoted professionals, dedicated staff with strong, unshakable foundation of sincerity coupled with transparency and professionalism is
+                  <p><strong><span class="text-success">Noble Shipping</span></strong> is founded
+ by a strong force of devoted professionals, dedicated staff with strong, unshakable foundation of sincerity coupled with transparency and professionalism is
                     the basis on which the edifice of our company has been built. Having a long 
                    experience in shipping, we are capable of handling all types of cargoes and 
                    vessels at any Moroccan port. We assure you of our best quality services at a very 
@@ -95,27 +98,37 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
-                                    <div class="w-100 w-lg-100 About_pic_t">
-                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" alt="">
+                                    <div class="w-75 w-lg-100 About_pic_t">
+                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/photo_2020-07-23_15-12-32.jpg" alt="">
                                     </div>
                                     <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
-                                        <h4 class="text-center">Mlle FATOUHI Nidal</h4>
-                                        <h6 class="text-secondary text-center">partement comptabilité</h6>
+                                        <h4 class="text-center">Mme SELLAMI Afaf
+
+
+                                        </h4>
+                                        <h6 class="text-secondary text-center">port de casablanca
+
+                                        </h6>
                                     </div>
                                 
                                 </div>
+                            
 
 
+
+                               
 
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
                                     <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
-                                        <h4 class="text-center">M. IMGIRNE Ayoub
+                                        <h4 class="text-center">Mlle LAMCHAOURI Mariam 
+
+
                                         </h4>
-                                        <h6 class="text-secondary text-center">partement comptabilité
+                                        <h6 class="text-secondary text-center">port de jorf lasfar
                                         </h6>
                                     </div>
                                     <div class="w-75 w-lg-100 About_pic_t">
-                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
+                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/photo_2020-07-23_16-08-00.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
@@ -151,42 +164,38 @@
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                     <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
-                                        <h4 class="text-center">M. BOUJEMEL Ali
-
-                                        </h4>
-                                        <h6 class="text-secondary text-center">port de jorf lasfar
-                                        </h6>
-                                    </div>
-                                
-                                </div>
-
-
-
-                                <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
-                                        <h4 class="text-center">Mlle LAMCHAOURI Mariam 
-
-
-                                        </h4>
-                                        <h6 class="text-secondary text-center">port de jorf lasfar
-                                        </h6>
-                                    </div>
-                                    <div class="w-75 w-lg-100 About_pic_t">
-                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
-                                    <div class="w-75 w-lg-100 About_pic_t">
-                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" alt="">
-                                    </div>
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
-                                        <h4 class="text-center">Mme SELLAMI Afaf
+                                        <h4 class="text-center">M.  AKOUZ Ali 
 
 
                                         </h4>
                                         <h6 class="text-secondary text-center">port de casablanca
 
                                         </h6>
+                                    </div>
+                                
+                                </div>
+                            
+
+
+
+                                <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
+                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                        <h4 class="text-center">M. IMGIRNE Ayoub
+                                        </h4>
+                                        <h6 class="text-secondary text-center">partement comptabilité
+                                        </h6>
+                                    </div>
+                                    <div class="w-75 w-lg-100 About_pic_t">
+                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
+                                    <div class="w-100 w-lg-100 About_pic_t">
+                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" alt="">
+                                    </div>
+                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                        <h4 class="text-center">Mlle FATOUHI Nidal</h4>
+                                        <h6 class="text-secondary text-center">partement comptabilité</h6>
                                     </div>
                                 
                                 </div>
@@ -210,21 +219,7 @@
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
-                                    <div class="w-75 w-lg-100 About_pic_t">
-                                        <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
-                                    </div>
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
-                                        <h4 class="text-center">M.  AKOUZ Ali 
-
-
-                                        </h4>
-                                        <h6 class="text-secondary text-center">port de casablanca
-
-                                        </h6>
-                                    </div>
-                                
-                                </div>
+                         
                                 
                         
 

@@ -11,39 +11,41 @@
 
 </head>
 <body>
-    <nav class="container navbar navbar-expand-lg navbar-light bg-white ">
+<div class="position-fixed bg-white fixed-top">
+       <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
          
-        <div>
-            <a class="navbar-brand" href="index.html"><img class='logo' src="src/img/logo.png" alt="logo"></a>
-        </div>
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-        </button>
+         <div>
+             <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
+         </div>
+         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+         </button>
+ 
+ 
+ 
+         <div class="collapse list text-center navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav">
+               <li class="nav-item active ">
+                 <a class="nav-link " href="index.php">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#serv">Our services</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="About.php">About us</a>
+               </li>
+               <li class="nav-item ">
+                 <a class="nav-link" href="Contact.php">Contact us</a>
+               </li>
+             </ul>
+         </div>
+ 
+       </nav>
+</div>
 
 
 
-        <div class="collapse list text-center navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active ">
-                <a class="nav-link " href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#serv">Our services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="About.html">About us</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="Contact.html">Contact us</a>
-              </li>
-            </ul>
-        </div>
-
-      </nav>
-
-
-
-      <section>
+      <section class="m-top">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -57,7 +59,7 @@
               </div>
             </div>
             <div  class='shad d-flex flex-column align-items-center justify-content-center text-center'>
-                <div class="bg-success text-white p-3 rounded w-50 w-md-100">
+                <div class="bg-A text-white p-3 rounded w-50 w-md-100">
                     <h1>Maritime agency</h1>
                 </div>
                 <div class="bg-danger text-white p-3 rounded mt-3">
@@ -73,13 +75,13 @@
       <section>
          <div class="d-flex justify-content-around m-3 flex-wrap">
             <div class="title text-center p-4">
-                <h1>YOUR CARGO IS SAFE IN OUR HANDS</h1>
+                <h1>YOUR VESSELS IS SAFE IN OUR HANDS</h1>
             </div>
             <div  class="para_1 mt-5 p-4 bg-light text-secondary text-center rounded">
                 <h5><i class="fas fa-quote-left mr-2"></i>At Noble Shipping, we believe in delivering <br>
                     what we commit. Once the job is entrusted to us, <br>
              you can leave all your shipping-related botheration behind<i class="fas fa-quote-right ml-2"></i></h5>
-             <a href="About.html"><button type="button" class="btn btn-outline-secondary">Read more</button></a>
+             <a href="About.php"><button type="button" class="btn btn-outline-secondary">About us</button></a>
             </div>
          </div>
          
@@ -138,6 +140,11 @@
                   </ul>
               </div>
           </div>
+
+
+          <div>
+           <iframe class="w-100" src="https://www.google.com/maps/d/embed?mid=1lgSPOMO0GbanxFzmPLaGojUYlXdjGMDQ"  height="500"></iframe>
+          </div>
       </section>
 
 
@@ -151,7 +158,7 @@
               RC Casa 204021 – TVA/IF 1112119 –Patente 35791699 –License N°275/7</h6>
           </div>
           <div class='footer_contact text-secondary  m-3'>
-            <h6><i class="far fa-paper-plane text-success mr-2"></i>Operations@nobleshipping.ma</h6>
+            <h6><i class="far fa-paper-plane text-success mr-2"></i>operations@nobleshipping.ma</h6>
           </div>
           <div class='footer_contact text-secondary  m-3'>
             <h6><i class="fas fa-mobile-alt text-success mr-2"></i>Tel: +212 522 443 333  Fax: +212 522 450 495</h6>
