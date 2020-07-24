@@ -52,15 +52,9 @@
           <div class="bg-shadow d-flex justify-content-around flex-wrap p-5">
             <div class="title-contact text-white  w-50 w-md-100">
                 <h1 class="p-2 m-0">Contact us </h1>
-                <p class="mt-4 w-75">For informations please contact us on the following numbers<br>
+                <p class="mt-4 w-75">For informations please contact us on the following numbers:<br>
                 - Casablanca : +212522443333 <br>
                 - El Jadida(Jorf lasfar) : +212523348803 
- 
-
-
-
-
-                    
                 </p>
   
             </div>

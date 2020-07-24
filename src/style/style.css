@@ -214,6 +214,8 @@ input,textarea{
 .About_pic_t img{
     height: 400px;
     object-fit: cover;
+    width: 380px !important;
+    margin: auto !important;
 
 }
 

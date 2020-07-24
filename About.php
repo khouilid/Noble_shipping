@@ -93,12 +93,12 @@
                                         <h4 class="text-center">M. BENCHAARA Hassan</h4>
                                         <h6 class="text-secondary text-center">direction generale</h6>
                                     </div>
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/photo_2020-07-23_15-12-32.jpg" alt="">
                                     </div>
                                     <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
@@ -127,12 +127,12 @@
                                         <h6 class="text-secondary text-center">port de jorf lasfar
                                         </h6>
                                     </div>
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/photo_2020-07-23_16-08-00.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                     <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
@@ -155,12 +155,12 @@
                                         <h6 class="text-secondary text-center">port de jorf lasfar
                                         </h6>
                                     </div>
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                     <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
@@ -185,12 +185,12 @@
                                         <h6 class="text-secondary text-center">partement comptabilité
                                         </h6>
                                     </div>
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">     
-                                    <div class="w-100 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" alt="">
                                     </div>
                                     <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
@@ -215,7 +215,7 @@
 
                                         </h6>
                                     </div>
-                                    <div class="w-75 w-lg-100 About_pic_t">
+                                    <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
                                 </div>
