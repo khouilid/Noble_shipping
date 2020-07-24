@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noble shipping</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/style/style.css ">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/d257b03b55.js" crossorigin="anonymous"></script>
 
-</head>
-<body>
+<?php include 'php/wish_lang.php'; ?>
+
+
+
+
 <div class="position-fixed bg-white fixed-top">
        <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
          
@@ -26,16 +19,23 @@
          <div class="collapse list text-center navbar-collapse" id="navbarNav">
              <ul class="navbar-nav">
                <li class="nav-item active ">
-                 <a class="nav-link " href="index.php">Home</a>
+                 <a class="nav-link " href="index.php"><?php echo $index_elements['nav_1'] ?></a>
                </li>
+             
                <li class="nav-item">
-                 <a class="nav-link" href="#serv">Our services</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="About.php">About us</a>
+                 <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
                </li>
                <li class="nav-item ">
-                 <a class="nav-link" href="Contact.php">Contact us</a>
+                 <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
+               </li>
+               <li class="nav-item ang"  >
+                <!-- <input  id="lg" hidden value="fr"> -->
+                 <a class="nav-link"   href="index.php?lg=franch">Français</a>
+                 <!-- <a class="nav-link"   href="index.php?lg=ang">An</a> -->
+               </li>
+               <li class="nav-item"  >
+               
+                 <a class="nav-link"   href="index.php?lg=anglish">Anglais</a>
                </li>
              </ul>
          </div>
@@ -75,13 +75,11 @@
       <section>
          <div class="d-flex justify-content-around m-3 flex-wrap">
             <div class="title text-center p-4">
-                <h1>YOUR VESSELS IS SAFE IN OUR HANDS</h1>
+                <h1><?php echo $index_elements['title_1'] ?></h1>
             </div>
             <div  class="para_1 mt-5 p-4 bg-light text-secondary text-center rounded">
-                <h5><i class="fas fa-quote-left mr-2"></i>At Noble Shipping, we believe in delivering <br>
-                    what we commit. Once the job is entrusted to us, <br>
-             you can leave all your shipping-related botheration behind<i class="fas fa-quote-right ml-2"></i></h5>
-             <a href="About.php"><button type="button" class="btn btn-outline-secondary">About us</button></a>
+                <h5><i class="fas fa-quote-left mr-2"></i><?php echo $index_elements['para_1'] ?><i class="fas fa-quote-right ml-2"></i></h5>
+             <a href="About.php"><button type="button" class="btn btn-outline-secondary"><?php echo $index_elements['nav_2'] ?></button></a>
             </div>
          </div>
          
@@ -92,14 +90,9 @@
       <section id="serv">
           <div class='services_section mt-5'>
               <div class='services_section_shadow p-4  text-white'> 
-                  <h1 class="text-center">Our services</h1>
+                  <h1 class="text-center"><?php echo $index_elements['serv'] ?></h1>
                   <div class="mt-4 services ml-4" id="servs">
-                      <p><i class="far fa-check-circle mr-3"></i>Prompt submission of information to port authorities, customers and all other involved parties;</p>
-                      <p><i class="far fa-check-circle mr-3"></i>Establishment of the pro-forma disbursements account covering port dues, expenses and services fees (pro-forma D/A);</p>
-                      <p><i class="far fa-check-circle mr-3"></i>Timely reservation of available berths;</p>
-                      <p><i class="far fa-check-circle mr-3"></i>Ordering of pilot/tugs and organization of immigration and customs clearance;</p>
-                      <p><i class="far fa-check-circle mr-3"></i>Providing performance of arrival and departure formalities;</p>
-                      <p><i class="far fa-check-circle mr-3"></i>Compilation and issuing of documents, bills of lading, cargo plans and manifests;</p>
+                  <?php echo $index_elements['services_less'] ?>
        
                   </div>
                        
@@ -109,7 +102,7 @@
                       
                       <div class="d-flex justify-content-end">
 
-                           <button type="button"  onclick="show_serv()" id="btn" class="btn  btn-success">Read more</button>
+                           <button type="button"  onclick="show_serv()" id="btn" class="btn  btn-success"><?php echo $index_elements['btn_2'] ?></button>
                        </div>
               </div>
                
@@ -127,7 +120,7 @@
               <div class="w-100 p-5   justify-content-center">
                   <div  class="text-center branch_list_title">
 
-                      <h1>Our branches</h1>
+                      <h1><?php echo $index_elements['branches'] ?></h1>
                   </div>
                   <ul class="branch_list mt-5 flex-wrap justify-content-around m-2 d-flex">
                       <li><i class="fas fa-map-marker-alt mr-2"></i>CASABLANCA</li>

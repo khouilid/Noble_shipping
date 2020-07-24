@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Noble shipping</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="src/style/style.css ">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet"> 
-        <script src="https://kit.fontawesome.com/d257b03b55.js" crossorigin="anonymous"></script>
-    
-    </head>
-<body>
+<?php include 'php/wish_lang.php'; ?>
+
+
 <div class="position-fixed bg-white fixed-top">
        <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
          
@@ -24,18 +14,23 @@
  
  
          <div class="collapse list text-center navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav">
+         <ul class="navbar-nav">
                <li class="nav-item  ">
-                 <a class="nav-link " href="index.php">Home</a>
+                 <a class="nav-link " href="index.php"><?php echo $index_elements['nav_1'] ?></a>
                </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="index.php #serv">Our services</a>
-               </li>
+             
                <li class="nav-item active">
-                 <a class="nav-link" href="About.php">About us</a>
+                 <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
                </li>
                <li class="nav-item ">
-                 <a class="nav-link" href="Contact.php">Contact us</a>
+                 <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
+               </li>
+               <li class="nav-item ang"  >
+                 <a class="nav-link"   href="About.php?lg=franch">Français</a>
+               </li>
+               <li class="nav-item"  >
+               
+                 <a class="nav-link"   href="About.php?lg=anglish">Anglais</a>
                </li>
              </ul>
          </div>
@@ -48,20 +43,13 @@
 
 
       <section class='m-top'>
-          <div class=" title-contact"><h1>Who are we ?</h1></div>
+          <div class=" title-contact"><h1><?php echo $About_elements['we'] ?></h1></div>
 
 
 
           <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
               <div class="bg-light w-100 w-lg-100 m-4 p-4 About_para text-secondary h-auto rounded">
-                  <p><strong><span class="text-success">Noble Shipping</span></strong> is founded
- by a strong force of devoted professionals, dedicated staff with strong, unshakable foundation of sincerity coupled with transparency and professionalism is
-                    the basis on which the edifice of our company has been built. Having a long 
-                   experience in shipping, we are capable of handling all types of cargoes and 
-                   vessels at any Moroccan port. We assure you of our best quality services at a very 
-                   competitive and economic price with personal involvement in day to 
-                   day transactions.
-                   </p>
+                <?php echo $About_elements['para_1'] ?>
               </div>
               <div class="w-100 w-lg-100 About_pic">
                   <img class="rounded-lg w-100 shadow-lg" src="src/img/photo-pro-8gLSk06fKKw-unsplash.jpg" alt="">
@@ -72,9 +60,7 @@
                 <img class="rounded-lg w-100 shadow-lg" src="src/img/bernd-dittrich-pDcDZ24mPk8-unsplash.jpg" alt="">
             </div>
             <div class="bg-light w-100 w-lg-100 m-4 p-4 About_para text-secondary h-auto rounded">
-                <p>
-                    Therefore, Noble Shipping  is  committed to give to its clients an optimum level of service that incorporates a highly competitive rates structure blended with an enviable service ethic because we believe that these key factors combined with our unquestionable integrity will enable us to expand at a rapid pace.
-                 </p>
+            <?php echo $About_elements['para_2'] ?>
             </div>
            
         </div>
@@ -85,7 +71,7 @@
 
 
       <section>
-        <div class=" title-contact p-3"><h1>Our Team</h1></div>
+        <div class=" title-contact p-3"><h1> <?php echo $About_elements['team'] ?></h1></div>
 
 
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">

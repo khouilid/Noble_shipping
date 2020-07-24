@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Noble shipping</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="src/style/style.css ">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet"> 
-        <script src="https://kit.fontawesome.com/d257b03b55.js" crossorigin="anonymous"></script>
-    
-    </head>
-<body>
+<?php include 'php/wish_lang.php'; ?>
+
+
+
 <div class="position-fixed bg-white fixed-top">
        <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
          
@@ -24,18 +15,21 @@
  
  
          <div class="collapse list text-center navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav">
+         <ul class="navbar-nav">
                <li class="nav-item ">
-                 <a class="nav-link " href="index.php">Home</a>
+                 <a class="nav-link " href="index.php"><?php echo $index_elements['nav_1'] ?></a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="index.php #serv">Our services</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="About.php">About us</a>
+                 <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
                </li>
                <li class="nav-item active ">
-                 <a class="nav-link " href="Contact.php">Contact us</a>
+                 <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
+               </li>
+               <li class="nav-item ang"  >
+                 <a class="nav-link"   href="Contact.php?lg=franch">Français</a>
+               </li>
+               <li class="nav-item"  >
+                 <a class="nav-link"   href="Contact.php?lg=anglish">Anglais</a>
                </li>
              </ul>
          </div>
@@ -50,9 +44,9 @@
 
       <div class='bg w-100 m-top'>
           <div class="bg-shadow d-flex justify-content-around flex-wrap p-5">
-            <div class="title-contact text-white  w-50 w-md-100">
-                <h1 class="p-2 m-0">Contact us </h1>
-                <p class="mt-4 w-75">For informations please contact us on the following numbers:<br>
+            <div class="title-contact text-white  w-50">
+                <h1 class="p-2 m-0"><?php echo $contact_elements['Contact'] ?></h1>
+                <p class="mt-4 w-75"><?php echo $contact_elements['para'] ?><br>
                 - Casablanca : +212522443333 <br>
                 - El Jadida(Jorf lasfar) : +212523348803 
                 </p>
@@ -61,44 +55,52 @@
             <div class='text-white inputs w-50 d-flex mt-5  flex-column align-items-center'>
               <form class='w-100' action="php/send_the_mail.php" method='POST'>
                     <div class="w-75 mt-4">
-                        <p class="m-0">Your email</p>
+                        <p class="m-0"><?php echo $contact_elements['mail'] ?></p>
                         <input class="w-100 text-white p-2 rounded" type="email" name="mail" id="">
                         <?php
                             if(!empty($_GET)){
-                              if($_GET['er'] == 'mail'){
+                              if(isset($_GET['er'])){
 
-                                echo '<p class="text-danger mt-1">Please enter a valid email address.</p>';
+                                if($_GET['er'] == 'mail'){
+  
+                                  echo '<p class="text-danger mt-1">Please enter a valid email address.</p>';
+                                }
                               }
                             }
                         
                         ?>
                     </div>
                     <div  class="w-75 mt-4">
-                      <p class="m-0">Your Phone number(optional)</p>
+                      <p class="m-0"><?php echo $contact_elements['phone'] ?></p>
                         <input class="w-100 text-white p-2 rounded" type="text" name="number" id="">
                     
                       </div>
                     <div  class="w-75 mt-4">
-                      <p class="m-0">Your subject</p>
+                      <p class="m-0"><?php echo $contact_elements['sub'] ?></p>
                         <input class="w-100 text-white p-2 rounded" type="text" name="subject" id="">
                         <?php
                              if(!empty($_GET)){
+                             if(isset($_GET['er'])){
                               if($_GET['er'] == 'sub'){
 
                                 echo '<p class="text-danger mt-1">Please enter your subject.</p>';
                               }
+                             }
                             }
                         
                         ?>
                       </div>
                     <div  class="w-75 mt-4">
-                        <p class="m-0">Your description</p>
+                        <p class="m-0"><?php echo $contact_elements['mess'] ?></p>
                         <textarea class="w-100 text-white p-2 rounded" name="description" id="" cols="30" rows="2"></textarea>
                         <?php
                              if(!empty($_GET)){
-                              if($_GET['er'] == 'mes'){
+                              if(isset($_GET['er'])){
 
-                                echo '<p class="text-danger mt-1">The message field is required!</p>';
+                                if($_GET['er'] == 'mes'){
+  
+                                  echo '<p class="text-danger mt-1">The message field is required!</p>';
+                                }
                               }
                             }
                         
@@ -106,9 +108,12 @@
                       </div>
                       <?php
                              if(!empty($_GET)){
-                              if($_GET['er'] == 'done'){
+                              if(isset($_GET['er'])){
 
-                                echo '<p class="text-success mt-1">Your email id sended</p>';
+                                if($_GET['er'] == 'done'){
+  
+                                  echo '<p class="text-success mt-1">Your email id sended</p>';
+                                }
                               }
                             }
                         

@@ -15,17 +15,14 @@ button:focus, input:focus, textarea:focus, select:focus {
     font-weight: 800;
 }
 .m-top{
-    margin-top: 120px !important;
+    margin-top: 120px;
 }
 .bg-A{
     background-color: #2A5378;
 }
-nav{
-    display: flex !important;
-    justify-content: space-between !important;
-}
+
 .list{
-    margin-left: 50%;
+    margin-left: 48%;
 
 }
 .slid-hight{
@@ -34,7 +31,7 @@ nav{
 }
 .shad{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.479) !important;
+    background-color: rgba(0, 0, 0, 0.479);
     width: 100%;
     height: 800px;
     top: 0;
@@ -48,14 +45,14 @@ nav{
     width: fit-content;
 }
 .title h1{
-    color: #10182F !important;
+    color: #10182F;
     font-weight: 800;
     border-bottom: 10px solid #14BF5F;
     width: fit-content;
 }
 @media only screen and (max-width:900px){
     .shad div{
-        width: fit-content !important;
+        width: fit-content ;
     }
     .shad div h1{
         font-weight: 900;
@@ -63,7 +60,7 @@ nav{
         
     }
     .para_1{
-        width: 90% !important;
+        width: 90% ;
     }
 
 }
@@ -74,18 +71,15 @@ nav{
 }
 .para_1{
     width: 40%;
-    padding: 60px !important;
+    padding: 60px ;
 }
 .services_section{
     background-image: url('../img/ruben-bagues-wplxPRCF7gA-unsplash (1).jpg');
     height: auto;
-    
-    /* object-fit: cover; */
 }
 .services_section_shadow {
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.664) !important;
+    background-color: rgba(0, 0, 0, 0.664);
 }
 .services_section_shadow h1{
     border-bottom: 5px solid #14BF5F;
@@ -144,11 +138,11 @@ nav{
 }
 @media only screen and (max-width:1000px){
     .bg{
-        height: auto !important;
+        height: auto;
     }
     .bg-shadow{
-        flex-direction: column !important;
-        align-items: center !important;
+        flex-direction: column ;
+        align-items: center ;
     }
     .title-contact{
         width: 100% !important;
@@ -163,7 +157,7 @@ nav{
 .bg-shadow{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.74) !important;
+    background-color: rgba(0, 0, 0, 0.74) ;
 }
 .title-contact h1{
     font-size: xx-large;
