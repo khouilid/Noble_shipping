@@ -129,6 +129,13 @@
 
       </div>
 
+
+
+
+    <div class="w-100">
+                      <iframe class="w-100" src="https://www.google.com/maps/d/u/0/embed?mid=1VmXJfdwtSyp_-waLA6dZcyTcQAm-TGzl"  height="480"></iframe>
+    </div>
+
     <footer>
         <div class="d-flex p-3 justify-content-around flex-wrap bg-light shadow">
           <div class='footer_contact text-secondary m-3'>
