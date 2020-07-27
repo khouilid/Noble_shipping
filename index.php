@@ -77,7 +77,7 @@
             <div class="title text-center p-4">
                 <h1><?php echo $index_elements['title_1'] ?></h1>
             </div>
-            <div  class="para_1 mt-5 p-4 bg-light text-secondary text-center rounded">
+            <div  class="para_1 mt-5 shadow-sm bg-light text-secondary text-center rounded">
                 <h5><i class="fas fa-quote-left mr-2"></i><?php echo $index_elements['para_1'] ?><i class="fas fa-quote-right ml-2"></i></h5>
              <a href="About.php"><button type="button" class="btn btn-outline-secondary"><?php echo $index_elements['nav_2'] ?></button></a>
             </div>

@@ -22,8 +22,8 @@ button:focus, input:focus, textarea:focus, select:focus {
 }
 
 .list{
-    margin-left: 48%;
-
+    position: absolute;
+    right: 0;
 }
 .slid-hight{
     height: 800px;
@@ -71,7 +71,7 @@ button:focus, input:focus, textarea:focus, select:focus {
 }
 .para_1{
     width: 40%;
-    padding: 60px ;
+    padding: 60px;
 }
 .services_section{
     background-image: url('../img/ruben-bagues-wplxPRCF7gA-unsplash (1).jpg');
