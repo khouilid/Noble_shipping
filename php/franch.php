@@ -4,9 +4,9 @@ $index_elements = array(
 
 
 
-    'nav_1' => 'Home',
-    'nav_2' => 'About us',
-    'nav_3' => 'Contact us',
+    'nav_1' => 'Accueil',
+    'nav_2' => 'propos de nous',
+    'nav_3' => 'contactez-nous',
 
     'title_1' => '',
     'para_1' => '',
