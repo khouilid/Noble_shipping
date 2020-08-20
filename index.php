@@ -5,42 +5,37 @@
 
 
 <div class="position-fixed bg-white fixed-top">
-       <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
-         
-         <div>
-             <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
-         </div>
-         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-         </button>
- 
 
- 
-         <div class="collapse list text-center navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav">
-               <li class="nav-item active ">
-                 <a class="nav-link " href="index.php"><?php echo $index_elements['nav_1'] ?></a>
-               </li>
+        <nav class="navbar container  navbar-expand-lg navbar-light bg-white">
+           <div>
+             <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
+           </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse item navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.php"><?php echo $index_elements['nav_1'] ?><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?lg=franch">Français</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?lg=anglish">Anglais</a>
+              </li>
              
-               <li class="nav-item">
-                 <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
-               </li>
-               <li class="nav-item ">
-                 <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
-               </li>
-               <li class="nav-item ang"  >
-                <!-- <input  id="lg" hidden value="fr"> -->
-                 <a class="nav-link"   href="index.php?lg=franch">Français</a>
-                 <!-- <a class="nav-link"   href="index.php?lg=ang">An</a> -->
-               </li>
-               <li class="nav-item"  >
-               
-                 <a class="nav-link"   href="index.php?lg=anglish">Anglais</a>
-               </li>
-             </ul>
-         </div>
- 
-       </nav>
+            </ul>
+          </div>
+        </nav>
 </div>
 
 
@@ -59,7 +54,7 @@
               </div>
             </div>
             <div  class='shad d-flex flex-column align-items-center justify-content-center text-center'>
-                <div class="bg-A text-white p-3 rounded w-50 w-md-100">
+                <div class="bg-A text-white p-3 rounded w-md-100">
                     <h1>Maritime agency</h1>
                 </div>
                 <div class="bg-danger text-white p-3 rounded mt-3">

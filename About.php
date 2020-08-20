@@ -2,40 +2,37 @@
 
 
 <div class="position-fixed bg-white fixed-top">
-       <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
-         
-         <div>
+
+        <nav class="navbar container navbar-expand-lg navbar-light bg-white">
+           <div>
              <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
-         </div>
-         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-         </button>
- 
- 
- 
-         <div class="collapse list text-center navbar-collapse" id="navbarNav">
-         <ul class="navbar-nav">
-               <li class="nav-item  ">
-                 <a class="nav-link " href="index.php"><?php echo $index_elements['nav_1'] ?></a>
-               </li>
+           </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse item navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.php"><?php echo $index_elements['nav_1'] ?><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?lg=franch">Français</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?lg=anglish">Anglais</a>
+              </li>
              
-               <li class="nav-item active">
-                 <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
-               </li>
-               <li class="nav-item ">
-                 <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
-               </li>
-               <li class="nav-item ang"  >
-                 <a class="nav-link"   href="About.php?lg=franch">Français</a>
-               </li>
-               <li class="nav-item"  >
-               
-                 <a class="nav-link"   href="About.php?lg=anglish">Anglais</a>
-               </li>
-             </ul>
-         </div>
- 
-       </nav>
+            </ul>
+          </div>
+        </nav>
 </div>
 
 
@@ -75,7 +72,7 @@
 
 
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">M. BENCHAARA Hassan</h4>
                                         <h6 class="text-secondary text-center">direction generale</h6>
                                     </div>
@@ -87,7 +84,7 @@
                                     <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/photo_2020-07-23_15-12-32.jpg" alt="">
                                     </div>
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">Mme SELLAMI Afaf
 
 
@@ -105,7 +102,7 @@
                                
 
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">Mlle LAMCHAOURI Mariam 
 
 
@@ -121,7 +118,7 @@
                                     <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">M. BOUJEMEL Ali
                                         </h4>
                                         <h6 class="text-secondary text-center">port de safi
@@ -134,7 +131,7 @@
 
                                 
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">M. LEGMIRI Kamal
 
                                         </h4>
@@ -149,7 +146,7 @@
                                     <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/daniel-asaki-CG6Wo4Ac4uc-unsplash.jpg" alt="">
                                     </div>
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">M.  AKOUZ Ali 
 
 
@@ -165,7 +162,7 @@
 
 
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">M. IMGIRNE Ayoub
                                         </h4>
                                         <h6 class="text-secondary text-center">partement comptabilité
@@ -179,7 +176,7 @@
                                     <div class=" w-lg-100 About_pic_t">
                                         <img class="rounded-lg w-100 shadow-lg" src="src/img/matheus-ferrero-pg_WCHWSdT8-unsplash.jpg" alt="">
                                     </div>
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">Mlle FATOUHI Nidal</h4>
                                         <h6 class="text-secondary text-center">partement comptabilité</h6>
                                     </div>
@@ -192,7 +189,7 @@
 
                                 
                                 <div class="d-flex justify-content-around flex-column align-items-center flex-lg-row m-5">
-                                    <div class="bg-light w-100 w-lg-100 m-4 p-5 About_team  h-auto rounded">
+                                    <div class="bg-light shadow-sm m-4 p-5 About_team  h-auto rounded">
                                         <h4 class="text-center">M. FAIZ Yassine  
 
 
@@ -245,7 +242,7 @@
               RC Casa 204021 – TVA/IF 1112119 –Patente 35791699 –License N°275/7</h6>
           </div>
           <div class='footer_contact text-secondary  m-3'>
-            <h6><i class="far fa-paper-plane text-success mr-2"></i>Operations@nobleshipping.ma</h6>
+            <h6><i class="far fa-paper-plane text-success mr-2"></i>operations@nobleshipping.ma</h6>
           </div>
           <div class='footer_contact text-secondary  m-3'>
             <h6><i class="fas fa-mobile-alt text-success mr-2"></i>Tel: +212 522 443 333  Fax: +212 522 450 495</h6>

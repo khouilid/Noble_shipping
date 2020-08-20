@@ -3,40 +3,38 @@
 
 
 <div class="position-fixed bg-white fixed-top">
-       <nav class=" container  navbar navbar-expand-lg navbar-light bg-white ">
-         
-         <div>
-             <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
-         </div>
-         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-         </button>
- 
- 
- 
-         <div class="collapse list text-center navbar-collapse" id="navbarNav">
-         <ul class="navbar-nav">
-               <li class="nav-item ">
-                 <a class="nav-link " href="index.php"><?php echo $index_elements['nav_1'] ?></a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
-               </li>
-               <li class="nav-item active ">
-                 <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
-               </li>
-               <li class="nav-item ang"  >
-                 <a class="nav-link"   href="Contact.php?lg=franch">Français</a>
-               </li>
-               <li class="nav-item"  >
-                 <a class="nav-link"   href="Contact.php?lg=anglish">Anglais</a>
-               </li>
-             </ul>
-         </div>
- 
-       </nav>
-</div>
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+           <div>
+             <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
+           </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse item navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.php"><?php echo $index_elements['nav_1'] ?><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.php"><?php echo $index_elements['nav_2'] ?></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?lg=franch">Français</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?lg=anglish">Anglais</a>
+              </li>
+             
+            </ul>
+          </div>
+        </nav>
+</div>
 
 
 
@@ -143,7 +141,7 @@
               RC Casa 204021 – TVA/IF 1112119 –Patente 35791699 –License N°275/7</h6>
           </div>
           <div class='footer_contact text-secondary  m-3'>
-            <h6><i class="far fa-paper-plane text-success mr-2"></i>Operations@nobleshipping.ma</h6>
+            <h6><i class="far fa-paper-plane text-success mr-2"></i>operations@nobleshipping.ma</h6>
           </div>
           <div class='footer_contact text-secondary  m-3'>
             <h6><i class="fas fa-mobile-alt text-success mr-2"></i>Tel: +212 522 443 333  Fax: +212 522 450 495</h6>

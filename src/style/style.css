@@ -11,6 +11,19 @@ button:focus, input:focus, textarea:focus, select:focus {
     height: 85px;
     /* margin-left: 20% !important; */
 }
+
+
+.item{
+    position: absolute;
+    right: 0 !important;
+}
+@media only screen and (max-width:1000px){
+    
+.item{
+    position: initial;
+    
+}
+}
 .collapse ul li a{
     font-weight: 800;
 }
@@ -50,6 +63,10 @@ button:focus, input:focus, textarea:focus, select:focus {
     border-bottom: 10px solid #14BF5F;
     width: fit-content;
 }
+.para_1{
+    width: 40%;
+    padding: 60px;
+}
 @media only screen and (max-width:900px){
     .shad div{
         width: fit-content ;
@@ -60,7 +77,7 @@ button:focus, input:focus, textarea:focus, select:focus {
         
     }
     .para_1{
-        width: 90% ;
+        width: 90% !important;
     }
 
 }
@@ -69,10 +86,7 @@ button:focus, input:focus, textarea:focus, select:focus {
     font-weight: 700;
     line-height: 30px;
 }
-.para_1{
-    width: 40%;
-    padding: 60px;
-}
+
 .services_section{
     background-image: url('../img/ruben-bagues-wplxPRCF7gA-unsplash (1).jpg');
     height: auto;
@@ -196,6 +210,16 @@ input,textarea{
     height: fit-content !important;
     border-left: 5px solid   #14BF5F;
     border-right: 5px solid   #14BF5F;
+    
+}
+.About_team{
+    width: 50% !important;
+    
+}
+@media only screen and (max-width:1000px){
+    .About_team{
+        width: 100% !important;
+    }
 }
 .About_team h4{
     font-size: x-large;
@@ -210,7 +234,10 @@ input,textarea{
     object-fit: cover;
     width: 380px !important;
     margin: auto !important;
+    display: none;
 
 }
+
+
 
  

@@ -18,12 +18,12 @@
 		header('location: ../Contact.php?er=mes');
 
 	}else {
-		$to_email = 'abdelkbirkhouilid32@gmail.com';
+		$to_email = 'operations@nobleshipping.ma';
 		$headers = "From: ". $email ."";
 		// becouse number is optionel we check if the user print it 
 		// if he print it we send it inside the email
 		if(isset($number)){
-			$message = $message .'<br> this is my number :'. $number: 
+			$message = $message .'<br> this is my number :'. $number;
 		}
 		
 		if (mail($to_email, $subject, $message, $headers)) {
