@@ -1,11 +1,13 @@
 
-<?php include 'php/wish_lang.php'; ?>
+<?php include 'php/wish_lang.php'; session_start(); ?>
+
 
 
 
 
 <div class="position-fixed bg-white fixed-top">
-
+       
+        <input type="number" hidden id='lg' value='<?php echo $_SESSION['langage_id']; ?>'>
         <nav class="navbar container  navbar-expand-lg navbar-light bg-white">
            <div>
              <a class="navbar-brand" href="index.php"><img class='logo' src="src/img/logo.png" alt="logo"></a>
@@ -16,7 +18,7 @@
           </button>
 
           <div class="collapse item navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav  align-items-baseline">
               <li class="nav-item active">
                 <a class="nav-link" href="index.php"><?php echo $index_elements['nav_1'] ?><span class="sr-only">(current)</span></a>
               </li>
@@ -26,11 +28,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="Contact.php"><?php echo $index_elements['nav_3'] ?></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.php?lg=franch">Français</a>
+              <li class="nav-item" id='english'>
+                <a class="nav-link"  href="index.php?lg=franch">
+                <img style='width:30px;' src="src/img/france.svg" alt="">
+
+             
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.php?lg=anglish">Anglais</a>
+              <li class="nav-item " id='franch'>
+                <a class="nav-link"  href="index.php?lg=anglish"><img style='width:30px;' src="src/img/united-states.svg" alt=""></a>
               </li>
              
             </ul>

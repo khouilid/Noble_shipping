@@ -3,6 +3,13 @@ session_start();
 // in this code we change langage that user want , we get what he want from url and push it into session
 if(!empty($_GET['lg'])){
   $_SESSION['lg'] = $_GET['lg'];
+  if($_GET['lg'] == 'franch'){
+    $_SESSION['langage_id'] = 2;
+
+  }else{
+    $_SESSION['langage_id'] = 1;
+  }
+  
 }
 // and here check if sesssion have something if  it is we include the right content
 if(!empty($_SESSION['lg'])){
@@ -10,6 +17,7 @@ if(!empty($_SESSION['lg'])){
   require_once "php/". $_SESSION['lg'] .".php";
 }else{
   require_once 'php/anglish.php';
+  
 }
 ?>
 

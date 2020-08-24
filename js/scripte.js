@@ -43,5 +43,25 @@ function show_serv() {
 }
 
 
+
+
+let langage_id = document.getElementById('lg').value;
+
+let english = document.getElementById('english');
+let franch = document.getElementById('franch');
+
+
+if(langage_id == 2){
+    
+    english.style.display = 'none';
+    franch.style.display = 'block';
+}
+else{
+    english.style.display = 'block';
+    franch.style.display = 'none';
+};
+
+
+
 // change langage link 
 
