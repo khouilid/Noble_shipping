@@ -44,9 +44,9 @@ function show_serv() {
 
 
 
+// switch between flags(langage)
 
 let langage_id = document.getElementById('lg').value;
-
 let english = document.getElementById('english');
 let franch = document.getElementById('franch');
 
